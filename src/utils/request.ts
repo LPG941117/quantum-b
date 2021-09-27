@@ -1,8 +1,9 @@
 import axios, { AxiosRequestConfig } from "axios";
 
-const baseURL = "";
+const baseURL = process.env.NODE_ENV === "development" ? "" : "";
 const withCredentials = true;
 const timeout = 30000;
+
 /**
  * Requests a path, returning a promise.
  *
