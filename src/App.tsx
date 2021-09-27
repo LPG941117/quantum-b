@@ -1,7 +1,9 @@
 import logo from "./logo.svg";
 import style from "./App.module.scss";
+// import request from "./utils/request";
 
 function App() {
+    // console.log(request("https://httpbin.org/get"));
     return (
         <div className={style.App}>
             <header className={style["App-header"]}>
