@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import style from "./App.module.scss";
-// import request from "./utils/request";
+import Counter from "./screens/Counter";
 
 function App() {
-    // console.log(request("https://httpbin.org/get"));
     return (
         <div className={style.App}>
             <header className={style["App-header"]}>
+                <Counter />
                 <img src={logo} className={style["App-logo"]} alt="logo" />
                 <p>
                     Edit <code>src/App.tsx</code> and save to reload.
